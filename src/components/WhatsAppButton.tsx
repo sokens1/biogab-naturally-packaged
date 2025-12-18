@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "24101234567"; // Replace with actual number
+  const phoneNumber = "241077617776"; // Replace with actual number
   const message = encodeURIComponent(
     "Bonjour BIOGAB, je suis intéressé(e) par vos produits biodégradables."
   );
