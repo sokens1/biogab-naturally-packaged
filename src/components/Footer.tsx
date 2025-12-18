@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Leaf, MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from "lucide-react";
+import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,11 +8,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="space-y-4">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
-                <Leaf className="w-5 h-5 text-accent-foreground" />
-              </div>
-              <span className="font-heading font-bold text-2xl">BIOGAB</span>
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/logo_biogab-removebg-preview.png" 
+                alt="BIOGAB" 
+                className="h-20 w-auto object-contain"
+              />
             </Link>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Votre partenaire de confiance pour des emballages biodégradables de qualité. 
@@ -95,7 +96,7 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                 <span className="text-primary-foreground/80 text-sm">
-                  123 Avenue Verte, Libreville, Gabon
+                  Louis, Libreville, Gabon
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -104,7 +105,7 @@ const Footer = () => {
                   href="tel:+24101234567"
                   className="text-primary-foreground/80 hover:text-accent transition-colors duration-300 text-sm"
                 >
-                  +241 01 23 45 67
+                  +241 77 61 77 76
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -113,7 +114,7 @@ const Footer = () => {
                   href="mailto:contact@biogab.com"
                   className="text-primary-foreground/80 hover:text-accent transition-colors duration-300 text-sm"
                 >
-                  contact@biogab.com
+                  contactbiogab@gmail.com
                 </a>
               </li>
             </ul>

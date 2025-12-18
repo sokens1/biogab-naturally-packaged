@@ -34,7 +34,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow pt-20">
+      <main className="flex-grow pt-16">
         {/* Hero */}
         <section className="bg-hero-gradient py-16 md:py-24">
           <div className="container-main px-4 text-center">
@@ -67,19 +67,19 @@ const Contact = () => {
                     {
                       icon: MapPin,
                       title: "Adresse",
-                      content: "123 Avenue Verte, Libreville, Gabon",
+                      content: "Louis, Libreville, Gabon",
                     },
                     {
                       icon: Phone,
                       title: "Téléphone",
-                      content: "+241 01 23 45 67",
-                      href: "tel:+24101234567",
+                      content: "+241 77 61 77 76",
+                      href: "tel:+241077617776",
                     },
                     {
                       icon: Mail,
                       title: "Email",
-                      content: "contact@biogab.com",
-                      href: "mailto:contact@biogab.com",
+                      content: "contactbiogab@gmail.com",
+                      href: "mailto:contactbiogab@gmail.com",
                     },
                     {
                       icon: Clock,

@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { Menu, X, Leaf } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -20,15 +20,14 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
       <nav className="container-main">
-        <div className="flex items-center justify-between h-16 md:h-20 px-4">
+        <div className="flex items-center justify-between h-16 md:h-16 px-4">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center group-hover:bg-leaf transition-colors duration-300">
-              <Leaf className="w-5 h-5 text-primary-foreground" />
-            </div>
-            <span className="font-heading font-bold text-xl md:text-2xl text-primary">
-              BIOGAB
-            </span>
+            <img 
+              src="/logo_biogab-removebg-preview.png" 
+              alt="BIOGAB" 
+              className="h-16 w-auto max-h-full object-contain transition-opacity duration-300 group-hover:opacity-80"
+            />
           </Link>
 
           {/* Desktop Navigation */}

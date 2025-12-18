@@ -9,7 +9,7 @@ const APropos = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow pt-20">
+      <main className="flex-grow pt-16">
         {/* Hero */}
         <section className="relative py-24 md:py-32 overflow-hidden">
           <div className="absolute inset-0">

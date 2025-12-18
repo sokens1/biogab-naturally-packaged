@@ -38,7 +38,7 @@ const Services = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow pt-20">
+      <main className="flex-grow pt-16">
         {/* Hero */}
         <section className="bg-hero-gradient py-16 md:py-24">
           <div className="container-main px-4 text-center">
